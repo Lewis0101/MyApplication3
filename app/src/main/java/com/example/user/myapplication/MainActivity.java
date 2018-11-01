@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private MyService.DownloadBinder mDownloadBinder;
 
-    //创建了一个ServiceConnectionde 匿名类
+    //创建了一个ServiceConnection 的匿名类
     private ServiceConnection mServiceConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {

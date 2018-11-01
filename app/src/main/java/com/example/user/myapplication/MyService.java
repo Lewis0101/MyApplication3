@@ -15,8 +15,8 @@ public class MyService extends Service {
             Log.d("MyService","startDownload executed");
         }
 
-        public int getprogress(){
-            Log.d("MyService","getprogress executed");
+        public int getProgress(){
+            Log.d("MyService","getProgress executed");
             return 0;
         }
     }
